@@ -1,13 +1,54 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.App {
+    text-align: center;
+    margin: 20px;
+}
+
+.desks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.desk {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.desk.booked {
+    background-color: #f8d7da;
+}
+
+.booking-form,
+.booking-dashboard {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.booking-form .form-group {
+    margin-bottom: 15px;
+}
+
+.booking-form button {
+    display: block;
+    width: 100%;
 }
