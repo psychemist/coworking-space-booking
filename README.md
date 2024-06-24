@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Co-working Space Booking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project is a co-working space booking system built with React.js and TypeScript. It allows users to book individual and team desks for a specified time period, with pricing based on membership tiers and booking duration.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 15 desks: 10 individual desks and 5 team desks.
+- Three membership tiers for individual desks: Basic ($10/hr), Premium ($15/hr), and Executive ($20/hr).
+- Fixed price for team desks: $25/hr.
+- 10% discount for bookings longer than 3 hours.
+- Visual representation of desk availability.
+- Prevents double bookings.
+- Displays total charged upon booking.
+- Booking dashboard showing total revenue.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/your-username/coworking-space-booking.git
+   cd coworking-space-booking
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
 
-### `npm run build`
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Run the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. Open the application in your browser.
+2. Select a desk, enter your name, choose your membership tier, and specify the number of hours.
+3. Click on the "Book Desk" button to book the desk.
+4. The desk will be marked as booked and the total charge will be displayed.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Conclusion
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This guide provides a complete implementation of a co-working space booking system using React.js and TypeScript. The system includes desk booking, price calculations, visual representation, and a dashboard for revenue tracking. The README provides detailed instructions for installation and usage.
