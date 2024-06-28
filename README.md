@@ -20,7 +20,7 @@ This project is a co-working space booking system built with React.js and TypeSc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/coworking-space-booking.git
+   git clone https://github.com/psychemist/coworking-space-booking.git
    cd coworking-space-booking
    ```
 
